@@ -1,0 +1,20 @@
+{
+  "name": "AI Novelist Chatbot for discord",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A discord chatbot using AI Novelist API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Edacha",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^2.6.1"
+  }
+}
